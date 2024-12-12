@@ -29,7 +29,32 @@
 
 <img src="https://github.com/user-attachments/assets/2a6a1263-c07c-4a2f-b9b0-2ab8474cff22">
 
+<h4>React를 이용한 페이지 이동</h4>
 
 <p> MBTI는 총 4개가 합쳐져 하나의 MBTI가 되는것에서 아이디어를 얻어 총 4개의 셀렉트 박스에 각기 id와, value를 부여한 후 4개의 id와 value를 하나로 합쳐 경로가 되도록 만들었습니다. 해당 mbtiResult는 이후, 데이터베이스에서 mbtiType이 되고, 게시판을 나누는 데 사용됩니다. 다만 ISP, 혹은 IST등 4개를 온전히 선택하지않고 게시판에 들어가는 것을 방지하기 위해, 조건문을 걸어 mbtiResult의 length가 4인 경우에만 접속되도록 했으며, 4가 아닌 경우 접속되지않습니다.
-
 </p>
+
+  <h2>2.게시판 페이지</h2>
+
+
+<img src="https://github.com/user-attachments/assets/ef7ecec9-568c-4535-8f8d-ffb3f12694ba">
+
+<img src="https://github.com/user-attachments/assets/965f3354-e71c-4c88-861a-5ce7e17320dd">
+
+<img src="https://github.com/user-attachments/assets/9d8378cd-078e-47da-a116-89e7b2047f23">
+
+<h4>JPA, JQPL, React를 이용한 게시판 페이지</h4>
+
+<p>게시판 화면입니다. 화면 상 ISTP 홈이라고 되어있는데, ISTP 게시판에서 작성한 글은 이곳에서만 보이게 할 필요가 있었습니다. 그래서 사용하게된게 JPQL문법이고, mbtiType을 따로 select할수 있도록 코드를 짰으며, 추가로 조회수를 업데이트하는 기능도 JPQL로 짜게되었습니다.
+클라이언트 측에서는 map을 이용하여 게시글이 표시되도록 하였으며, 이곳에서도 조건문을 걸어 board.mbtiType이 mbti와 같은 경우에만 표시되도록 하였습니다. 특이사항으로는 온클릭을 보시면 쿠키클릭이라는 함수를 넣어놨는데, 이것또한 이후에 게시글을 눌렀을때, 쿠키가 담기는 기능을 합니다.
+체크된 코드의 경우 페이징의 역할을 하며, 검색기능과 함께 비슷한 구성으로 되어있지만, 특이사항으로 Sort로 조회되는 글 순서를 원하는 대로 설정하였고, mbti 정보를 함께 보내 게시판 별로 페이징 처리가 다르게 될 수 있게 하였습니다.
+</p>
+
+
+
+  <h2>3.게시글 작성</h2>
+
+  <h2>4.게시글 페이지</h2>
+
+  <h2>5.핫한 게시글</h2>
+  
