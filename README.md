@@ -15,3 +15,16 @@
 
 <h1>DB 모델링</h1>
 <img src="https://github.com/user-attachments/assets/3e0fad2d-de10-4ac9-93f8-68ea67dd7527">
+
+<h1>코드 리뷰</h1>
+  <h2>1.index 페이지</h2>
+
+    <p>접속 시 가장 먼저 보이는 사이트 소개 페이지입니다. 로그인 창이 모달로 구현되어있으며 회원가입, 개발자 탭 클릭 시 
+      해당하는 페이지로 이동합니다. 
+  </p>
+
+
+<img src="https://github.com/user-attachments/assets/b40d2069-096b-4d68-9ce2-28d171629bf7">
+  
+
+<img src="https://github.com/user-attachments/assets/2a6a1263-c07c-4a2f-b9b0-2ab8474cff22">
